@@ -1,0 +1,21 @@
+{
+    "name": "caritor1/yii2-mywidget1",
+    "description": "testing",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "Abishek",
+            "email": "abishek.c@caritorsolutions.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "myself\\foobar\\": ""
+        }
+    }
+}
